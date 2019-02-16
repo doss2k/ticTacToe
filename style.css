@@ -1,0 +1,35 @@
+.button {
+    width: 100px;
+    height: 100px;
+    vertical-align: top;
+    -webkit-appearance: none;
+    border-radius: 0px;
+    margin-top: 3px;
+    background-color: #EBEBEB;
+}
+
+b1 {
+    font-size: 80px;
+    color: black;
+}
+
+#startover {
+    width: 100px;
+    height: 30px;
+}
+
+body {
+    background-color: #F3FBFF;
+}
+
+@media (min-width: 600px){
+    .button {
+        width: 150px;
+        height: 150px;
+    }
+    b1 {
+        font-size: 100px;
+    }
+}
+
+
